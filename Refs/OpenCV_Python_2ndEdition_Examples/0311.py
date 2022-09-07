@@ -1,7 +1,7 @@
 #0311.py
 import numpy as np
 import cv2
-
+ 
 def onMouse(event, x, y, flags, param):
 ##    global img
     if event == cv2.EVENT_LBUTTONDOWN:
